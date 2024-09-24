@@ -1,0 +1,66 @@
+@media (min-width: 992px) {
+  .navbar {
+    position: absolute;
+  }
+  .navbar.nav-sticky .navbar-brand > .logoBlack {
+    display: block;
+  }
+  .navbar.nav-sticky .navbar-brand > .LogoWhite {
+    display: none;
+  }
+  .logoBlack {
+    display: none;
+  }
+  .navbar.nav-sticky {
+    padding: 10px 60px;
+    background: #ffffff !important;
+  }
+
+  .navbar-light .nav-sticky .navbar-nav .nav-link,
+  .navbar-light .nav-sticky .navbar-nav .nav-link:focus {
+    color: #666666;
+  }
+  .navbar.nav-sticky .GetInTouchBTN {
+    margin-top: -10px;
+  }
+  .navbar.nav-sticky a {
+    color: #000 !important;
+  }
+  .navbar.nav-sticky a:hover {
+    color: #000 !important;
+  }
+  #navItem a:hover {
+    color: #ffffff;
+  }
+  .nav-sticky .navbar-nav {
+    border-bottom: 0px;
+  }
+  .navbar-nav {
+    border-bottom: 1px solid #fffbfb;
+  }
+  .navbar.nav-sticky .dropdown a > svg path {
+    fill: #000 !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1104px) {
+  .navbar.nav-sticky {
+    padding: 10px 10px !important;
+  }
+  .navbar {
+    padding: 10px 10px !important;
+  }
+}
+
+.navbar .navbar {
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
+}
+.navbar.nav-sticky a:last-child svg path {
+  fill: #000;
+}
+@media (max-width: 992px) {
+  .navbar .dropdown a > svg path {
+    fill: #000 !important;
+  }
+}

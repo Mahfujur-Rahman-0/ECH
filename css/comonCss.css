@@ -1,0 +1,25 @@
+.LogoWhite {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 10px 60px;
+    /* background: #ffffff !important; */
+  }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: #666666;
+  }
+  .navbar .GetInTouchBTN {
+    margin-top: -10px;
+  }
+}
+.navbar .dropdown a > svg path {
+  fill: #000 !important;
+}
+@media (min-width: 992px) and (max-width: 1104px) {
+  .navbar {
+    padding: 10px 10px !important;
+  }
+}
